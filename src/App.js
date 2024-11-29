@@ -1,21 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import myImage from './grinch.png'; 
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+     
+<img src={myImage} alt="My Profile" className="profile-pic" />
+
+        <p class="text"  >
+        You can learn how to steal Christmas
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.imdb.com/title/tt0170016/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          see more 
         </a>
       </header>
     </div>
